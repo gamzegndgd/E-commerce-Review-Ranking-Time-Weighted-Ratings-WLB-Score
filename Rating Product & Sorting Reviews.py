@@ -38,11 +38,11 @@
 ## helpful_yes – Değerlendirmenin faydalı bulunma sayısı
 ## total_vote – Değerlendirmeye verilen oy sayısı
 
-import matplotlib.pyplot as plt
+
 import pandas as pd
 import math
 import scipy.stats as st
-from sklearn.preprocessing import MinMaxScaler
+
 
 pd.set_option('display.max_columns', None)
 # pd.set_option('display.max_rows', 10)
@@ -258,3 +258,4 @@ df.sort_values("wilson_lower_bound", ascending=False).head(20)
 1142  Daniel Pham(Danpham_X @ yahoo.  com)  5.00000                          Great large capacity card            5           0           5 2014-02-04                   5               1.00000             0.56552
 1753                             G. Becker  5.00000                    Use Nothing Other Than the Best            5           0           5 2012-10-22                   5               1.00000             0.56552
 """
+
