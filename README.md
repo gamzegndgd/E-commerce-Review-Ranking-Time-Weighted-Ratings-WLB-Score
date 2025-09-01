@@ -3,8 +3,7 @@ This project improved Amazon product review evaluation by calculating time-weigh
 
 # Technologies and Libraries Used:
 •	Python
-•	pandas & NumPy (data analysis and numerical computations)
-•	Matplotlib & Seaborn (visualizations)
+•	pandas
 •	SciPy (statistical calculations, Wilson Lower Bound)
 
 # Skills Gained:
